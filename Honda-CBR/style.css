@@ -1,0 +1,95 @@
+
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+/* Utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.honda-bg{
+    background-color:#264653 ;
+}
+.cbr-greyScale{
+    filter: grayscale(100%);
+  }
+  .honda-text{
+      color:#E76F51;
+      font-size: 14px;
+      
+  }
+  /*Custom button css */
+  .btn-bg{
+   background-color: #E76F51;   
+   color: white;
+   font-size: 16px;
+   font-weight: 400;
+   border: none;
+   border-radius: 5px;
+   padding: 10px 25px;
+  }
+  /* Custome Icon Css */
+  .ranking_icon i{
+    color: #E77C40;
+  }
+  /* clients  */
+  .client_id{
+      text-decoration: none;
+      color: #23A6F0;
+  }
+  .user3{
+    display: grid;
+    width: 155px;
+    height: 155px;
+    border-radius: 100%;
+    place-items: center;
+}
+  
+  .honda-clients{
+      font-weight: bold;
+      font-size: 45px;
+  }
+  .text-color{
+      color: #E76F51;
+  }
+  /* Frequently Asked Question */
+  .cbr_Faq{
+    font-weight: bold;
+    font-size: 45px;
+  }
+  .cbr_Faq b{
+    color: #E76F51;
+  }
+  /* Latest News  */
+ .honda_news{
+   color: #6C6C6C;
+  font-size: 15px;
+ }
+ /* Readmore Custome Button  */
+ .readmore_btn{
+  background-color: white;
+  color: #E76F51;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #E76F51;
+  border-radius: 5px;
+  padding: 10px 25px;
+ }
+/* Card Slider  */
+
+ .controls-top {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+a.btn-floating {
+  background: #E76F51;
+  color: white;
+  padding: 15px;
+  display: inline-grid;
+  width: 40px;
+  height: 40px;
+  place-content: center;
+  border-radius: 100%;
+  text-decoration: none;
+}
